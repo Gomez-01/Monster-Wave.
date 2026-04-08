@@ -1,33 +1,21 @@
-# TypeScript Example
+# Monster-Wave
 
-[![License](https://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)  
-[![Build Status](https://github.com/persapiens-classes/ifrn-ria-example/actions/workflows/node.yml/badge.svg)](https://github.com/persapiens-classes/ifrn-ria-example/actions)
+Monster Wave is a personal project focused on documenting and organizing my thoughts, impressions, and reviews of every Monster Energy Drink available in Brazil.
 
-This is the **pedagogical example application** developed for the course:
+# About the Project
 
-### [Applications with Rich Interfaces](https://github.com/persapiens-classes/ifrn-ria)
+This repository serves as a growing collection of reviews, where each drink is explored based on:
 
-Offered in the **Bachelor of Technology in Analysis and Systems Development (TADS)** at the:
+- Flavor profile
+- Sweetness level
+- Aftertaste
+- Design & branding
+- Overall rating
 
-- [Academic Directorate of Information and Technology Management (DIATINF)](https://diatinf.ifrn.edu.br)  
-- [Campus Natal Central (CNAT)](https://portal.ifrn.edu.br/campus/natalcentral)  
-- [Federal Institute of Rio Grande do Norte (IFRN)](https://portal.ifrn.edu.br/)
+The goal is to create a structured and consistent reference for comparing different Monster Energy flavors over time.
 
----
+# Purpose
 
-## 🧪 About the Project
-
-This repository contains the source code to create unit tests in [typescript](https://www.typescriptlang.org/) using [vitest](https://vitest.dev/).
-
----
-
-## 📚 Related Resources
-
-- 📘 [Course GitHub Repository](https://github.com/persapiens-classes/ifrn-ria)  
-- 🌐 [TADS Course Website (IFRN)](https://sites.google.com/escolar.ifrn.edu.br/diatinf/cursos/superiores/an%C3%A1lise-e-desenvolvimento-de-sistemas?authuser=0)
-
----
-
-## 📄 License
-
-This project is licensed under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html).
+- Keep track of all Monster Energy variants available in Brazil
+- Build a personal review archive
+- Discover new flavors
