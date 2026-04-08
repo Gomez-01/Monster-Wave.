@@ -4,6 +4,6 @@
 // o método JOIN não funciona com arrow
 
 // 2 - Programa que Concatena o Array
-const JuntarArray = (elements: string[]): string => {
+export const JuntarArray = (elements: string[]): string => {
   return elements.join(" ");
 };
