@@ -6,14 +6,14 @@
 //6.4 A implementação desse método nas classes deve utilizar os atributos.
 //6.5 Escreve um teste que instancie as classes criadas, altera os atributos e teste o método comum na interface.
 
-interface Veiculo {
+export interface Veiculo {
     marca: string;
     modelo: string;
     ano: number;
     exibirInformacoes(): void;
 }
 
-class Carro implements Veiculo {
+export class Carro implements Veiculo {
     marca: string;
     modelo: string;
     ano: number;
@@ -24,12 +24,12 @@ class Carro implements Veiculo {
         this.ano = ano;
     }
 
-    exibirInformacoes(): void {
-        console.log(`Carro - Marca: ${this.marca}, Modelo: ${this.modelo}, Ano: ${this.ano}`);
+    exibirInformacoes(): String {
+        return `Marca: ${this.marca}, Modelo: ${this.modelo}, Ano: ${this.ano}`;
     }
 }
 
-class Caminhao implements Veiculo {
+export class Caminhao implements Veiculo {
     marca: string;
     modelo: string;
     ano: number;
@@ -40,7 +40,7 @@ class Caminhao implements Veiculo {
         this.ano = ano;
     }
 
-    exibirInformacoes(): void {
-        console.log(`Caminhão - Marca: ${this.marca}, Modelo: ${this.modelo}, Ano: ${this.ano}`);
+    exibirInformacoes(): String {
+        return `Marca: ${this.marca}, Modelo: ${this.modelo}, Ano: ${this.ano}`;
     }
 }
